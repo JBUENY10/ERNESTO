@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio</title>
+    <link rel="stylesheet" href="./css/tailwind.css">
+</head>
+<body>
+<div class="relative"> 
+<div class="fixed w-full ">
+        <!--menu azul-->
+        <div class="text-xs font-inter bg-blue-950 text-white py-4 px-44 flex justify-between ">
+            <div ><!--publi azul-->
+                Protect your data, protect your business. Add daily Droplet backups today ->
+            </div>
+           <!--menu info azul-->
+            <div class="flex gap-5">
+                <a href="">Blog</a>
+                <a href="">Docs</a>
+                <a href="">Get Support</a>
+                <a href="">Contact Sales</a>  
+            </div>
+           
+           
+        </div >
+            <!--menu blanco-->
+           
+        <div class="py-4 px-44 flex justify-between items-center bg-white">
+                <!--menu del logo-->
+                <div class="flex gap-3 items-center justify-center">
+                    <img src="img/digitalocean-2.svg.png" alt="" class="h-8">
+                    <div class="flex justify-center items-center hover:bg-gray-300 rounded-full">
+                    <a href="" class="">Products</a><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" /></svg>
+        </div>
+                            <div class="flex justify-center items-center hover:bg-gray-300 rounded-full"> 
+                            <a href="" class="">Solutions</a><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" /></svg>
+        </div>
+                            <div  class="flex justify-center items-center hover:bg-gray-300 rounded-full">
+                            <button id="but-dev" href="" class="">Developers</button><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" /></svg>
+        </div>
+                            <div class="flex justify-center items-center hover:bg-gray-300 rounded-full">
+                            <a href="" class="" >Businesses</a><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" /></svg>
+        </div> 
+                        <div class="flex justify-center items-center hover:bg-gray-300 rounded-full">
+                            <a href="" class="" >Pricing</a><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" /></svg>
+        </div> 
+                </div>
+
+                    <!--menu login-->
+                <div class="flex gap-5">
+                    <a href="" class="hover:bg-gray-200 px-4 py-3 rounded-full ">Log in</a>
+                    <a href="" class="bg-blue-500 px-4 py-3 rounded-3xl hover:bg-blue-800 text-white">Sign up</a>
+
+                </div>     
+                  </div>
+                  
+ <!--desplegable-->
+<div id="dropdev" class="hidden">
+    <div class="flex justify-center px-20 pt-10 pb-20 ml-10 mr-10 bg-white ">
+     <div class=" w-1/4 rounded-full">
+         <div class="bg-gray-300 justify-center rounded-full px-3">
+             <p href="" class="px-4 py-2 font-bold text-s "> Our Community</p>
+             <div><a href=""  class="rounded-3xl"><p href="" class="font-semibold text-xl">Community home.</p>
+             <p href="" class="font-light text-l"> DedvOps and development guides.</p>
+             <div class="flex items-center"><p  href="" class="font-semibold text-xl ">CSS-Tricks</p>
+                 <img src="img/flecha-correcta.png" class="h-4 hover:scale-x-150 origin-left ease-in-out"></div>
+             <p href="" class="font-light text-l"> All things web desing.</p>
+         </a></div>
+         </div>
+     </div>
+     <div class=" w-1/4 leading-6">
+         <div class="bg-white justify-center">
+             <p href="" class="px-4 py-2 font-bold text-l "> Resources</p>
+             <p href="" class=" px-2 py-2 ">Tutorials</p>
+              <p href="" class="px-2 py-2  ">Questions</p>
+              <p href="" class="px-2 py-2  ">Marketplace</p>
+              <p href="" class="px-2 py-2  ">Tools</p>
+              <p href="" class="px-2 py-2  ">Write for DOnations</p>
+              <p href="" class="px-2 py-2  ">Customer Stories</p>
+              <p href="" class="px-2 py-2 ">DigitalOcean Blog</p>
+             </p>
+             
+ 
+         </div>
+     </div>
+     <div class=" w-1/4">
+         <div class="bg-white justify-center">
+             <p href="" class="px-4 py-2 font-bold text-l "> Get Involved</p>
+             <p href="" class="px-2 py-2 ">Hatch Startup Program</p>
+              <p href="" class="px-2 py-2  ">Open source Sponsorships</p>
+              <p href="" class="px-2 py-2 ">Hacktoberfest <img src="img/flecha-correcta.png" class="h-4 hover:scale-x-150 origin-left ease-in-out"></p>
+              <p href="" class="px-2 py-2 ">DO impact</p>
+              <p href="" class="px-2 py-2">Nonprofitis</p>
+         </div>
+   </div>
+   <div class=" w-1/5">
+     <div class="bg-white justify-center">
+         <p href="" class="px-4 py-2 font-bold text-l "> Documentation</p>
+         <p href="" class="px-2 py-1 ">Quickstart</p>
+          <p href="" class="px-2 py-1  ">Compute</p>
+          <p href="" class="px-2 py-1 ">Storage </p>
+          <p href="" class="px-2 py-1 ">Managed Databases</p>
+          <p href="" class="px-2 py-1">Containers</p>
+          <p href="" class="px-2 py-1">Billing</p>
+          <p href="" class="px-2 py-1">API Refery</p>
+     </div>
+ </div>
+
+</div>
+</div>
+</div>
+<!--fin navegación estatica-->
+        <div class="bg-[url('/img/hero-background.769bb51c.svg')] bg-cover">
+
+            <!--menu general-->
+            <div class="py-36 px-30 text-center">
+                <p href="" class="text-5xl text-white font-bold pb-6">Dream it. Build it. Grow it.</p>
+                <p href="" class="text-lg text-white">Move to the developer cloud optimized for business.</p>
+                <p href="" class="text-lg text-white">  Build your vision using DigitalOcean's simple, powerful and cost-effective cloud solutions.</p>
+             <!--CONTACTO-->
+                <div class="flex justify-center text-center gap-10 mt-10">
+                    <div class="px-4 py-2 font-semibold bg-white rounded-full flex justify-center items-center hover:bg-blue-800 hover:text-white"><a href="">Sign up with email </a></div>  
+                    
+                    <div class="px-4 py-2 font-semibold bg-white rounded-full flex justify-center items-center hover:bg-blue-800 hover:text-white">
+                        <div class="gap-1 flex items-center"> <img src="img/descarga.png" alt="" class="h-5"><a href="">Sign up with Google</a></div></div> 
+                    
+                      <div class="px-4 py-2 font-semibold bg-white rounded-full flex justify-center items-center hover:bg-blue-800 hover:text-white" onmouseover="imgoscura()" onmouseleave="imgclara()">
+                     <div class="gap-1 flex items-center"> <img src="img/github2.svg.png" alt="" class="h-8" id="github"><a href="">Sign up with Github</a> </div></div>
+                  </div>    </div>
+                  <!---->
+                  <div class="pb-10 pt-2"><svg viewBox="0 0 1 0.002" preserveAspectRatio="none">
+                      <path d="M0 0 l12 0" stroke="#A9B3CA" stroke-width="1" stroke-dasharray="4 8" vector-effect="non-scaling-stroke" stroke-linecap="round">
+                      </path>
+                  </svg>
+                </div>
+
+                  <!--tres colunaS-->
+          <div class="flex justify-center gap-7" >
+              <div class=" w-1/4">
+                  <img src="img/cloudways.988a7c9e (1).svg" alt="" class="rounded-t-3xl">
+                  <div class="bg-white">
+                      <p href="" class="px-4 py-2 font-bold text-xl "> Cloudways Autonomous</p>
+                      <p href="" class="px-4 py-2  ">Cloudways by DigitalOcean provides fully managed hosting. Now gain built-in autoscaling for WordPress via Kubernetes.</p>
+                      <div class="flex items-center"><p  href="" class="px-4 py-2 font-semibold text-l ">Learn more</p><img src="img/flecha-correcta.png" class="h-4 hover:scale-x-150 origin-left ease-in-out"></div>
+                  </div>
+              </div>
+              <div class=" w-1/4">
+                  <img src="img/card-paperspace_h100s.9f36178a.svg" alt="" class="rounded-t-3xl">
+                  <div class="bg-white">
+                      <p href="" class="px-4 py-2 font-bold text-xl "> Paperspace H100s</p>
+                      <p href="" class="px-4 py-2  ">NVIDIA H100 GPUs are now available via Paperspace by DigitalOcean. Build epic AI/ML applications.</p>
+                      <div class="flex items-center"><p  href="" class="px-4 py-2 font-semibold text-l ">Get started now</p><img src="img/flecha-correcta.png" class="h-4 hover:scale-x-150 origin-left ease-in-out"></div>
+          
+                  </div>
+              </div>
+              <div class=" w-1/4">
+                <img src="img/report-2.753b4aaa.svg" alt="" class="rounded-t-3xl">
+                <div class="bg-white">
+                    <p href="" class="px-4 py-2 font-bold text-xl "> Your Business-Ready Cloud</p>
+                    <p href="" class="px-4 py-2  ">Bring a workload to DigitalOcean and enjoy three months costs on us. See why ISVs choose DigitalOcean.</p>
+                    <div class="flex items-center"><p  href="" class="px-4 py-2 font-semibold text-l ">Accelerate your journey </p><img src="img/flecha-correcta.png" class="h-4 hover:scale-x-150 origin-left ease-in-out"></div> 
+        
+                 </div>
+            </div>
+        
+      
+        </div>
+</div>
+<script src="archivo.js"></script>
+</body>
+</html>
